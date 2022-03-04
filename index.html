@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nining Website</title>
+    <link rel="icon" href="https://img.icons8.com/bubbles/2x/butterfly.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <h1>
+        <marquee direction="left" scrolldelay="100" onmouseover="stop()" onmouseout="start()">
+            Selamat Datang :)
+        </marquee>
+    </h1>
+
+    <hr/><br>
+
+    <div id="menu">
+        <a href="#">Selamat Membaca</a>
+    </div>
+    
+    <br/><hr/>
+
+    <fieldset>
+        <legend><h2>About Me?</h2></legend>
+        <img src="img/nining.jpeg" align="left" width="12%" hspace="10" border="1"/>
+    
+    <p>Nama saya adalah <i>Nining Suprasmanto</i>, biasa dipanggil <u>nining</u>. Saya lahir di Tegal, 27 Juli 2000. 
+        Umur saya saat ini adalah 21 tahun. Saya tinggal di Dki Jakarta, tepatnya jakarta utara. Saya berkuliah di Universitas Yarsi. Saat ini menempuh 
+        semester 6. Mengambil jurusan Teknik Informatika.
+    </p>
+    <p>Kegiatan saat ini di kampus adalah mengikuti Unit Kegiatan Mahasiswa, Kreasi divisi penelitian, saya sebagai BPH(Badan 
+        Pengurus Harian) menjadi bendahara. Pertama kali saya menjadi bendahara, sebelumnya menjadi divisi lapangan, acara, humas, dll. Tantangan baru 
+        untuk saya menjadi seorang bendahara.
+    </p>
+    <p>Saat ini saya mengikuti kegiatan kampus merdeka, mengambil NF Computer - Fullstack web developer. Saya ingin mendalami tentang web developer, 
+        untuk bekal dimasa depan, dan bekal untuk bekerja. Kegiatan nya sangat seru, dan cukup padat.
+    </p>
+    </fieldset>
+
+        <h2>Pernah Belajar Bahasa apa saja?</h2>
+        
+    <ul class="jenis">
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JAVA</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+
+    <h2>Pendidikan?</h2>
+    <table id="macam">
+        <tr>
+            <th>No</th>
+            <th>Tingkat Pendidikan</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>SDN Bahagia 06</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMPN 3 Babelan</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SMA</td>
+            <td>SMAN 3 Babelan</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>KULIAH</td>
+            <td>Universitas Yarsi, Semester 6</td>
+        </tr>
+    </table>
+    <hr/><br>
+    <fieldset>
+        <legend>Gallery Project</legend>
+        <marquee scrolldelay="200">
+            <img src="img/1.JPG" width="50%">
+            <img src="img/2.JPG" width="50%">
+            <img src="img/3.JPG" width="50%">
+            <img src="img/4.JPG" width="50%">
+            <img src="img/5.JPG" width="50%">
+            <img src="img/6.JPG" width="50%">
+            <img src="img/7.JPG" width="50%">
+        </marquee>
+    </fieldset>
+    <hr/><br>
+    <nav id="main">
+        <h3>Contact Me</h3>
+        <div id="form">
+            <form action="">
+                <label for="fname">Nama Depan</label>
+                <input type="text" id="fname" name="firstname" placeholder="Nama depan..">
+
+                <label for="lname">Nama Belakang</label>
+                <input type="text" id="lname" name="lastname" placeholder="Nama belakang..">
+
+                <label for="country">Kota Temat Tingal</label>
+                <select id="country" name="country">
+                <option value="dki">Dki Jakarta</option>
+                <option value="jateng">Jawa Tengah</option>
+                <option value="jatim">Jawa Timur</option>
+                </select>
+
+                <label for="texta">Pesan</label>
+                <input type="text" id="text" name="pesan">
+                
+                    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </nav>
+    </body>
+</html>
